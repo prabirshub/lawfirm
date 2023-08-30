@@ -1,4 +1,7 @@
+import BackToTopBtn from '@/components/BackToTopBtn'
 import Banner from '@/components/Banner'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 import Newsletter from '@/components/Newsletter'
 import Skills from '@/components/Skills'
 import Team from '@/components/Team'
@@ -12,7 +15,9 @@ const Home = () => {
       <Skills />
       <Team />
       <Newsletter />
-      <div className='h-[2000px]'></div>
+      <Contact />
+      <Footer />
+      <BackToTopBtn />
     </main>
   )
 }
